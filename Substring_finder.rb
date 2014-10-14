@@ -1,6 +1,5 @@
 #    Write a program that finds the longest repeated substring in any given text. The program should read the text from a file. Make whatever assumptions necessary.
 
-
 content = File.readlines 'textfile.txt'
 
 def longest_recurring_string(string)
@@ -10,9 +9,12 @@ def longest_recurring_string(string)
 end
 
 puts longest_recurring_string(content)
+#Could'nt solve this one--below is my best notion, as pseudocode.
 
 
-# PSEUDOCODE SOLUTION
+
+
+# PSEUDOCODE SOLUTION IDEA
 
 # accept superstring
 
